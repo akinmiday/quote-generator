@@ -21,7 +21,8 @@ const quotes = [
         {quote: ` "If life were predictable it would cease to be life, and be without flavor."`,
         person: `Eleanor Roosevelt`},
 
-        {quote: `" If you look at what you have in live, you'll always have more. Ifyou look at what 
+        {quote: `" If you look at what you have in live, you'll always have more.
+         If you look at what 
         you don't have in life, you'll never have enough"`,
         person : `Oprah Winfrey`},
 
@@ -43,7 +44,7 @@ const quotes = [
 btn.addEventListener('click', function(){
 
     let random = Math.floor(Math.random()* quotes.length);
-    
+
     quote.innerText = quotes[random].quote
     person.innerText = quotes[random].person
 })
